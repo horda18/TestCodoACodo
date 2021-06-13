@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+/* NavBar */
+
+.nav {
+    background-image: url(images/header.jpg);
+    min-height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.nav-right {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav p {
+    font-size: 25px;
+    color: #f2f2f2;
+    padding: 11px 40px;
+}
+
+.nav li a {
+    padding: 2px 7px 2px 7px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.nav ul {
+    padding: 20px;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-down-left {
+    padding-top: 300px;
+}
+
+.nav li a:hover {
+    background-color: #9d99b9;
+    color: #ffffff;
+}
+
+/* End NavBar*/
+
+/* Container */
+
+.container {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+/* End Container */
+
+/* Cards First */
+
+.cards {
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    text-align: center;
+    margin: 50px 60px;
+}
+
+.subtitle-card {
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Cards First End */
+
+/* Cards Second */
+
+.cards-option {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 40px 60px;
+}
+
+.cards-option article {
+    background-color: #f2f2f2;
+    border: 1px solid rgb(214, 212, 212);
+}
+
+.cards-option article div {
+    padding: 10px 10px;
+}
+
+.cards-option .image-option {
+    width: 100%;
+    height: 200px;
+}
+
+.cards-option h4 {
+    text-align: left;
+    padding: 5px;
+}
+
+.cards-option p {
+    text-align: left;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.price {
+    color: rgb(59, 228, 44);
+    font-weight: bold;
+}
+
+.cards-option article .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-option article .icons img {
+    width: 9%;
+    height: 10%;
+    padding: 15px 20px;
+}
+
+.cards-option article .icons p {
+    font-size: 13px;
+    margin-left: -8px;
+}
+
+.cards-option article .btn {
+    background-color: #f89719;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* End Cards Second */
+
+/* Btn Plus*/
+
+.container-btn-plus {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-plus {
+    background-color: rgb(91, 143, 14);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* End Btn Plus*/
+
+/* FOOTER */
+
+.footer {
+    background-image: url(images/encuentra.jpg);
+    min-height: 250px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.nav-footer-down-left {
+    padding-top: 50px;
+    padding-left: 40px;
+    margin: 50px;
+}
+
+.nav-footer-down-left h2 {
+    padding-bottom: 25px;
+    color: #f2f2f2;
+}
+
+.nav-footer-down-left p {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.footer .nav-footer-down-left .btn {
+    background-color: #f89719;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-footer {
+    background-color: rgb(44, 42, 42);
+}
+
+.nav-footer ul {
+    padding: 20px;
+}
+
+.nav-footer li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.nav-footer li a {
+    padding: 2px 7px 2px 7px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.nav-footer-right {
+    float: right;
+    font-size: 16px;
+    color: #f2f2f2;
+    padding: 20px 40px;
+}
+
+.nav-footer-left {
+    list-style-type: none;
+    text-align: left;
+}
+
+/* End FOOTER */
